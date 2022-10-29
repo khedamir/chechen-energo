@@ -1,0 +1,38 @@
+.territory-list_item{
+    list-style: none;
+}
+
+
+.territory-list{
+    margin: 12px 0;
+    display: none;
+}
+
+.territory-list_active{
+    display: block;
+}
+
+.section2-item h3{
+    padding: 6px 0;
+    display: inline;
+}
+
+.section2-item span{
+    font-size: 1.5rem;
+}
+
+.section2-item{
+    margin: 12px 0;
+}
+
+.section2-item h3:hover,
+.section2-item h3:active{
+    color: rgb(126, 126, 126);
+}
+
+@media(max-width: 500px){
+    .section2{
+        margin: 0;
+        padding: 0;
+    }
+}

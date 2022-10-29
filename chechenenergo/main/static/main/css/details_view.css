@@ -1,0 +1,28 @@
+.news_img{
+    width: 400px;
+}
+
+.section2{
+    margin: 0 10%;
+    max-width: 1000px;
+}
+
+
+
+@media(max-width: 550px){
+    .section2{
+        margin: 0 10px;
+        font-size: .9rem;
+        padding-top: 28px;
+    }
+
+    .news_img{
+        width: 200px;
+        
+    }
+
+    .section2 h1{
+        margin-top: 50px;
+    }
+}
+

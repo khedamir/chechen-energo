@@ -1,0 +1,14 @@
+.section2{
+    margin: 0 10%;
+}
+
+.section2-text a{
+    color: rgb(74, 112, 148);
+}
+
+
+@media(max-width: 600px){
+    .section2{
+        margin: 0;
+    }
+}

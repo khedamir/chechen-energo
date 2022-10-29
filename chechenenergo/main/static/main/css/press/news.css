@@ -1,0 +1,33 @@
+.news_img{
+    width: 250px;
+    margin-right: 12px;
+}
+
+.section2 li{
+    display: flex;
+    padding: 12px 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.section2 a{
+    color: rgb(74, 112, 148);
+    border: 2px solid rgb(74, 112, 148);
+    border-radius: 8px;
+    padding: 2px;
+    display: block;
+    width: 90px;
+}
+
+
+
+.section2 span{
+    width: 700px;
+}
+
+
+@media(max-width: 500px){
+    .section2 ul{
+        padding-left: 0;
+    }
+}

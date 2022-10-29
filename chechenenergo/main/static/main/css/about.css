@@ -1,0 +1,43 @@
+.main-nav{
+    background: rgb(66, 66, 66);
+    position: relative;
+    /* width: 100%; */
+}
+
+
+.nav-list{
+    background-color: rgba(138, 135, 135, 0.9);
+}
+
+.main-header{
+    width: 100%;
+}
+
+.section1-nav{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    background: rgb(74, 112, 148);
+    flex-wrap: wrap;
+}
+
+.section1-nav_item{
+    list-style: none;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+.section1-nav_item a{
+    text-decoration: none;
+    color: white;
+}
+
+.section2{
+    padding: 50px;
+    font-size: 1.2rem;
+    color: rgb(59, 59, 59);
+}
+
+

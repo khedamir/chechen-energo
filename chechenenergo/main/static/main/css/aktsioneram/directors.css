@@ -1,0 +1,19 @@
+th{
+    text-align: left;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    padding: 8px;
+}
+
+
+@media(max-width: 600px){
+    .section2{
+        padding: 4px;
+    }
+}
